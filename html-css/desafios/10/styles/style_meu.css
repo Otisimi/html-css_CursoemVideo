@@ -1,0 +1,237 @@
+/* FIZ ESTE STYLE POR CONTA PRÓPRIA */
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@font-face {
+  font-family: Android;
+  src: url(../fontes/idroid.otf) format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* GLOBAL */
+body {
+  background-color: #3ddc84;
+  margin: 0px;
+  height: 100%;
+}
+h1 {
+  margin-top: 0px;
+}
+h2 {
+  margin-top: 0px;
+  background-image: linear-gradient(to right, #c5ebd6, white);
+  padding-left: 10px;
+  font-family: Android;
+  color: #0d7c3d;
+}
+p#texts {
+  margin-top: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
+  text-indent: 30px;
+  font-weight: normal;
+}
+span {
+  color: #0d7c3d;
+  font-weight: bold;
+}
+a {
+  text-decoration: none;
+}
+
+/* HEADER */
+header#header_principal {
+  margin: 0px;
+  height: 200px;
+  background-image: linear-gradient(to bottom, #3ddc84, #063d1e, #063d1e);
+  background-attachment: fixed;
+}
+header#header_principal > h1 {
+  text-align: center;
+  font-family: "Bebas Neue";
+  font-weight: normal;
+  font-size: 50px;
+  color: white;
+  text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.404);
+}
+header#header_principal > p {
+  width: 400px;
+  margin: auto;
+  text-align: center;
+  text-indent: 0px;
+  color: white;
+  font-weight: normal;
+  text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.404);
+}
+header#header_principal > nav {
+  margin-top: 35px;
+  margin-left: 5px;
+}
+header#header_principal > nav > a {
+  font-family: "Bebas Neue";
+  font-size: 15px;
+  color: white;
+  text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.404);
+  border: 2px solid transparent;
+  border-radius: 5px;
+  padding: 5px;
+}
+header#header_principal > nav > a:hover {
+  background-color: #043f1e;
+  border: 2px solid #043f1e;
+  color: #3ddc84;
+  border-radius: 5px;
+}
+
+/* MAIN */
+main#main {
+  width: 50%;
+  margin: auto;
+  background-color: white;
+  box-shadow: 0px 0px 7px 1px black;
+  border-radius: 0px 0px 10px 10px;
+}
+
+main#extra {
+  margin-top: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  padding: 15px;
+}
+main#extra > p {
+  margin: 0px;
+  text-align: justify;
+  text-indent: 30px;
+}
+/* LISTA */
+ul {
+  list-style: none;
+  columns: 2;
+  column-gap: auto;
+  margin-left: 0;
+  padding-left: 0;
+  height: 40%;
+}
+
+li {
+  break-inside: avoid;
+}
+li:before {
+  content: "✔";
+  padding-right: 5px;
+}
+
+li > a {
+  text-decoration: underline;
+  color: black;
+}
+a > abbr {
+  text-decoration: underline;
+}
+
+/* SECTIONS */
+#first {
+  padding: 10px;
+}
+#first > h1 {
+  font-family: Android;
+  color: #0d7c3d;
+}
+#third {
+  padding: 10px;
+}
+#third > div {
+  background-color: #c5ebd6;
+  border-radius: 10px;
+}
+header#header_second {
+  height: 30px;
+  background-color: #3ddc84;
+  border-radius: 10px 10px 0px 0px;
+  box-shadow: none;
+}
+header#header_second > p {
+  padding: 10px;
+  text-align: justify;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+/* PARAGRAFOS E LINKS */
+p > a {
+  color: #0d7c3d;
+  font-weight: bold;
+}
+p > a:hover {
+  text-decoration: underline;
+}
+p > a:active {
+  color: #3ddc84;
+}
+p > a:visited {
+  color: #063d1e;
+}
+p > a:visited:active {
+  color: #3ddc84;
+}
+p > a::after {
+  content: "🔗";
+}
+
+/* IMAGENS */
+#bugdroid {
+  display: block;
+  margin: auto;
+  width: 30%;
+}
+#irina {
+  display: block;
+  margin: auto;
+  width: 70%;
+}
+#droids {
+  display: block;
+  margin: auto;
+  width: 100%;
+}
+
+/* VIDEO */
+#video {
+  background-color: #063d1e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#video > iframe {
+  margin: auto;
+  height: 300px;
+  width: 100%;
+  padding: 30px;
+}
+
+end {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
+  text-indent: 30px;
+}
+
+/* FOOTER */
+footer {
+  margin: 0px;
+  background-color: #063d1e;
+  color: #3ddc84;
+  padding: 10px;
+  margin-top: 25px;
+}
+footer > p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: small;
+  text-align: center;
+  margin: 0px;
+}
+footer > p > span {
+  color: white;
+  font-weight: bold;
+}

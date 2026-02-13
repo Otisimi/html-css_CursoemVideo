@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grouping Tags</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: lightyellow;
+        margin: 0px;
+      }
+      header {
+        background-color: rgb(219, 144, 4);
+        padding: 10px;
+        margin: 10px;
+      }
+      h1 {
+        display: flex;
+      }
+      main {
+        background-color: rgb(228, 228, 189);
+        padding: 10px;
+        margin: 10px;
+        border-radius: 0px 30px 0px 30px;
+      }
+      footer {
+        font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+        background-color: rgb(219, 144, 4);
+        color: white;
+        text-align: center;
+        padding: 4px;
+      }
+      footer > p {
+        margin: 0px;
+      }
+      article > aside {
+        background-color: rgb(255, 255, 143);
+      }
+      nav {
+        background-color: rgb(235, 211, 0);
+        box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 0.342);
+      }
+      nav > a {
+        text-decoration: none;
+        color: rgb(161, 117, 4);
+        font-weight: bold;
+        margin-right: 5px;
+        text-decoration: underline;
+      }
+      header > h1 {
+        color: yellow;
+      }
+      div#bola {
+        height: 30px;
+        width: 30px;
+        margin: 5px 0px 0px 5px;
+        background-color: rgb(255, 102, 0);
+        border-radius: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>
+        Meu Site
+        <div id="bola"></div>
+      </h1>
+      <nav>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+      </nav>
+    </header>
+    <main>
+      <section id="assuntos"></section>
+      <p>Esportes | Grêmio | Tricolor | O IMORTAL</p>
+      <section id="noticias">
+        <article>
+          <h2>Notícia do Grêmio</h2>
+          <p>Grêmio ganhou ontem!!!!</p>
+          <aside>
+            <p>Artigo escrito por Zé Ninguém</p>
+          </aside>
+        </article>
+        <article></article>
+      </section>
+    </main>
+    <footer>
+      <p>Desenvolvido por Otávio Simionato</p>
+    </footer>
+  </body>
+</html>

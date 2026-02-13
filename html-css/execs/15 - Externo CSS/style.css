@@ -1,0 +1,22 @@
+body {
+  background-color: antiquewhite;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 20px;
+}
+h1 {
+  color: rgb(255, 77, 104);
+  background-color: rgb(255, 226, 239);
+}
+h2 {
+  color: rgb(138, 9, 78);
+}
+p {
+  text-align: justify;
+  text-indent: 20px;
+  color: rgb(58, 9, 46);
+}
+a {
+  color: blueviolet;
+  font-weight: 1000;
+  font-style: italic;
+}
