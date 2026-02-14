@@ -10,6 +10,6 @@ Aprendendo...
 
 <a href="https://otisimi.github.io/html-css_CursoemVideo/html-css/desafios/9/index.html"  style="color: #336AEB">Desafio 9 - Vídeos</a>
 
-<a href="https://otisimi.github.io/html-css_CursoemVideo/html-css/desafios/10/index_meu.html"  style="color: #336AEB">Desafio 10 - Minha página (feito antes de ver os vídeos)</a>
+<a href="https://otisimi.github.io/html-css_CursoemVideo/html-css/desafios/10/index_meu.html"  style="color: #336AEB">Desafio 10 - Minha página - feito antes de ver os vídeos do curso</a>
 
-<a href="https://otisimi.github.io/html-css_CursoemVideo/html-css/desafios/10/index_gg.html"  style="color: #336AEB">Desafio 10 - Página vendo os vídeos</a>
+<a href="https://otisimi.github.io/html-css_CursoemVideo/html-css/desafios/10/index_gg.html"  style="color: #336AEB">Desafio 10 - Página vendo os vídeos do GG ensinando</a>
