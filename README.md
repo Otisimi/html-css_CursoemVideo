@@ -6,10 +6,12 @@ Repositório criado para gerenciar os arquivos criados durante as aulas do curso
 
 Aprendendo...
 
-<h1 style="color: #336aeb">Desafios</h1>
+<h1 style="color: #0e3692">Desafios</h1>
 
-<a href="https://otisimi.github.io/html-css_CursoemVideo/html-css/desafios/9/index.html"  style="color: #d12338">Desafio 9 - Vídeos</a>
+<a href="https://otisimi.github.io/html-css_CursoemVideo/html-css/desafios/9/index.html"  style="color: #34b1fe">Desafio 9 - Vídeos</a>
 
-<a href="https://otisimi.github.io/html-css_CursoemVideo/html-css/desafios/10/index_meu.html"  style="color: #d12338">Desafio 10 - Minha página - feito antes de ver os vídeos do curso</a>
+<a href="https://otisimi.github.io/html-css_CursoemVideo/html-css/desafios/10/index_meu.html"  style="color: #34b1fe">Desafio 10 - Minha página - feito antes de ver os vídeos do curso</a>
 
-<a href="https://otisimi.github.io/html-css_CursoemVideo/html-css/desafios/10/index_gg.html"  style="color: #d12338">Desafio 10 - Página vendo os vídeos do GG ensinando</a>
+<a href="https://otisimi.github.io/html-css_CursoemVideo/html-css/desafios/10/index_gg.html"  style="color: #34b1fe">Desafio 10 - Página vendo os vídeos do GG ensinando</a>
+
+<a href="https://otisimi.github.io/html-css_CursoemVideo/html-css/desafios/12/index.html"  style="color: #34b1fe">Projeto Cordel</a>
