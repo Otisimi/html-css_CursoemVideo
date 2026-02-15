@@ -1,15 +1,15 @@
-# html-css_CursoemVideo
+# HTML-CSS -- Curso em Vídeo
 
-Curso de HTML5 e CSS3 do CursoemVideo
+Exercícios e Desafios do curso de HTML5 e CSS3 do <strong>Curso em Vídeo</strong>
 
 Repositório criado para gerenciar os arquivos criados durante as aulas do curso de HTML5 e CSS3 do Curso em Vídeo!
 
 Aprendendo...
 
-<h1 style="color: #0A2463">Desafios</h1>
+<h1 style="color: #336aeb">Desafios</h1>
 
-<a href="https://otisimi.github.io/html-css_CursoemVideo/html-css/desafios/9/index.html"  style="color: #336AEB">Desafio 9 - Vídeos</a>
+<a href="https://otisimi.github.io/html-css_CursoemVideo/html-css/desafios/9/index.html"  style="color: #d12338">Desafio 9 - Vídeos</a>
 
-<a href="https://otisimi.github.io/html-css_CursoemVideo/html-css/desafios/10/index_meu.html"  style="color: #336AEB">Desafio 10 - Minha página - feito antes de ver os vídeos do curso</a>
+<a href="https://otisimi.github.io/html-css_CursoemVideo/html-css/desafios/10/index_meu.html"  style="color: #d12338">Desafio 10 - Minha página - feito antes de ver os vídeos do curso</a>
 
-<a href="https://otisimi.github.io/html-css_CursoemVideo/html-css/desafios/10/index_gg.html"  style="color: #336AEB">Desafio 10 - Página vendo os vídeos do GG ensinando</a>
+<a href="https://otisimi.github.io/html-css_CursoemVideo/html-css/desafios/10/index_gg.html"  style="color: #d12338">Desafio 10 - Página vendo os vídeos do GG ensinando</a>
