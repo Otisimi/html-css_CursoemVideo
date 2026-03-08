@@ -5,11 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Media Query</title>
     <link rel="stylesheet" href="estilos/style.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
       <h1>Meu Site</h1>
-      <menu>
+      <i id="burguer" class="material-icons" onclick="clickMenu()"> menu </i>
+      <menu id="menu">
         <ul>
           <li><a href="#">Home</a></li>
           <li><a href="#">Grupos</a></li>
@@ -53,5 +58,14 @@
         </p>
       </article>
     </main>
+    <script>
+      function clickMenu() {
+        if (menu.style.display == "none") {
+          menu.style.display = "block";
+        } else {
+          menu.style.display = "none";
+        }
+      }
+    </script>
   </body>
 </html>
