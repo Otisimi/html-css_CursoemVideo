@@ -1,6 +1,64 @@
 @charset "UTF-8";
 
-:root{
-    --cor-verde: #49a09d;
-    --cor-roxo: #5f2c82;
+:root {
+  --cor-verde: #49a09d;
+  --cor-roxo: #5f2c82;
+  --cor-branco: white;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
+}
+
+body,
+html {
+  background-color: var(--cor-roxo);
+  height: 100vh;
+  width: 100vw;
+}
+
+main {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+section#login {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+
+  background-color: var(--cor-branco);
+  width: 250px;
+  height: 500px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.425);
+}
+
+section#login div#fundo {
+  display: block;
+  background: var(--cor-roxo) url(../imagens/fundo.jpg) no-repeat center;
+  height: 200px;
+  background-size: cover;
+}
+
+section#login div#cadastro {
+  display: block;
+  padding: 10px;
 }
