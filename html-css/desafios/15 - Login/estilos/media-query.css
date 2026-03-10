@@ -1,5 +1,6 @@
 @charset "UTF-8";
 
+/* Tablet */
 @media screen and (min-width: 768px) and (max-width: 992px) {
   body {
     background-image: linear-gradient(
@@ -11,6 +12,7 @@
 
   section#login {
     width: 80%;
+    height: 300px;
   }
 
   section#login div#fundo {
@@ -29,6 +31,7 @@
   }
 }
 
+/* Grandes */
 @media screen and (min-width: 992px) {
   body {
     background-image: linear-gradient(
@@ -40,6 +43,7 @@
 
   section#login {
     width: 950px;
+    height: 380px;
   }
 
   section#login div#fundo {
@@ -59,5 +63,6 @@
 
   div#cadastro p {
     font-size: 1.2rem;
+    margin: 20px 0px;
   }
 }
