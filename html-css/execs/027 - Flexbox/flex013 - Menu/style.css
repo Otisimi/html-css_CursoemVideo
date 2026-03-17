@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+:root {
+  --punch-red: #e63946ff;
+  --honeydew: #f1faeeff;
+  --frosted-blue: #a8dadcff;
+  --cerulean: #457b9dff;
+  --oxford-navy: #1d3557ff;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  background-color: var(--frosted-blue);
+  height: 100vh;
+  width: 100vw;
+}
+
+header {
+  background-color: var(--cerulean);
+  color: var(--honeydew);
+  padding: 10px;
+}
+
+header h1 {
+  border: 1px dotted var(--punch-red);
+}
+header nav {
+  border: 1px dotted var(--punch-red);
+}
+
+main {
+  background-color: var(--honeydew);
+  margin: 10px;
+  padding: 10px;
+  border-radius: 15px;
+  box-shadow: 0px 5px 10px var(--oxford-navy);
+}
