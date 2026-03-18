@@ -26,19 +26,58 @@ header {
   background-color: var(--cerulean);
   color: var(--honeydew);
   padding: 10px;
+
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
 }
 
 header h1 {
-  border: 1px dotted var(--punch-red);
+  font-size: 2.3rem;
+  flex: 0 0 200px;
 }
+
 header nav {
-  border: 1px dotted var(--punch-red);
+  justify-self: flex-end;
+
+  display: flex;
+  align-items: center;
+}
+header nav a {
+  background-color: var(--punch-red);
+  color: var(--honeydew);
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+
+  flex: 0 0 auto;
+}
+header nav a:hover {
+  background-color: var(--honeydew);
+  color: var(--punch-red);
+  transition: background-color 0.3s;
 }
 
 main {
   background-color: var(--honeydew);
   margin: 10px;
-  padding: 10px;
+  padding: 15px;
   border-radius: 15px;
   box-shadow: 0px 5px 10px var(--oxford-navy);
+}
+main h2 {
+  color: var(--oxford-navy);
+  font-size: 1.8rem;
+}
+main p {
+  margin-top: 10px;
+  color: var(--cerulean);
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: justify;
+  text-indent: 15px;
+  line-height: 1.2rem;
 }
