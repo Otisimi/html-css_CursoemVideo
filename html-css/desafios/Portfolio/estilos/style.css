@@ -16,12 +16,15 @@
 }
 
 body {
+  height: 100vh;
+  width: 100vw;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   line-height: 1.5rem;
   background-color: var(--fundo-principal);
   color: var(--texto);
 }
 
+/* HEADER */
 header {
   background-color: var(--destaque);
   color: var(--texto);
@@ -30,6 +33,7 @@ header {
   justify-content: flex-end;
 }
 
+/* MENU */
 #menu ul {
   list-style: none;
   display: flex;
@@ -51,4 +55,63 @@ header {
 #menu a:hover {
   background-color: var(--destaque-inverso);
   color: var(--destaque);
+}
+
+/* MAIN */
+main {
+  display: grid;
+  grid-template-columns: 1fr 90% 1fr;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+/* FICHA */
+section#ficha {
+  background-color: var(--fundo-card);
+  padding: 20px;
+  border-radius: 8px;
+  grid-column: 2;
+}
+
+section#ficha img.foto {
+  width: 250px;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid var(--fundo-card);
+  outline: 5px solid var(--destaque);
+  display: block;
+  margin: auto;
+  margin-bottom: 15px;
+}
+
+section#ficha h1 {
+  color: var(--destaque);
+  margin: 15px 0px;
+  font-size: 2rem;
+  text-align: center;
+}
+
+section#ficha p {
+  text-align: justify;
+  text-indent: 2rem;
+  margin: 7px 0px;
+}
+
+div#social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.6rem;
+  gap: 1rem;
+  margin-top: 15px;
+}
+
+div#social a {
+  color: var(--destaque);
+  transition: color 0.4s;
+}
+
+div#social a:hover {
+  color: var(--destaque-inverso);
 }
