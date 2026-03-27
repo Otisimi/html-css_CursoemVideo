@@ -137,9 +137,14 @@ article h2 {
 }
 
 /* TCC */
+#tcc #links-tcc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
 #tcc a {
-  display: block;
-  margin: auto;
   width: 210px;
   margin-top: 10px;
   padding: 5px;
@@ -246,8 +251,108 @@ article h2 {
   color: var(--destaque);
 }
 
+/* PROJETOS */
+#projeto-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+#projeto-container p {
+  text-indent: 0px;
+}
+
+#projeto-container .projeto {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  background-color: var(--fundo-principal);
+  padding: 10px;
+  border-radius: 8px;
+  border-left: 5px solid var(--destaque-inverso);
+  transition:
+    border-width 0.5s,
+    border-color 0.7s;
+}
+
+#projeto-container .projeto:hover {
+  border-color: var(--destaque);
+  border-left-width: 15px;
+  cursor: pointer;
+}
+
+#projeto-container .proj-nav {
+  width: 100%;
+  height: 100%;
+}
+
+#projeto-container .foto {
+  width: 100%;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+/* FOOTER */
+footer {
+  background-color: var(--destaque);
+  color: var(--texto-inverso);
+  text-align: center;
+  padding: 15px;
+}
+
+footer a {
+  color: var(--texto-inverso);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer a:hover {
+  color: var(--destaque-inverso);
+}
+
 @media screen and (min-width: 768px) {
+  #tcc .video-container {
+    width: 50%;
+    height: 50%;
+  }
+  #tcc .video-container iframe {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 8px;
+  }
+  #tcc #links-tcc {
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+    gap: 10px;
+  }
+  #tcc #links-tcc a {
+    padding: 15px;
+  }
+
   #skill-container {
     grid-template-columns: 1fr 1fr;
+  }
+
+  #projeto-container .projeto {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+
+  #projeto-container .projeto-info {
+    max-width: 70%;
+  }
+
+  #projeto-container .proj-nav {
+    width: 30%;
+  }
+
+  #projeto-container .foto {
+    aspect-ratio: 1/1;
+    max-width: 100%;
+    max-height: 230px;
   }
 }
