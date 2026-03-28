@@ -21,6 +21,18 @@ body {
   line-height: 1.5rem;
   background-color: var(--fundo-principal);
   color: var(--texto);
+  transition:
+    background-color 0.5s,
+    color 0.5s;
+}
+
+body.escuro {
+  --fundo-principal: #222222;
+  --texto: #e0e0e0;
+  --texto-inverso: #333333;
+  --destaque: #ff5522;
+  --destaque-inverso: #a73917;
+  --fundo-card: #444444;
 }
 
 p {
@@ -98,6 +110,7 @@ section#ficha img.foto {
 section#ficha h1 {
   color: var(--destaque);
   margin: 15px 0px;
+  line-height: 2rem;
   font-size: 2rem;
   text-align: center;
 }
@@ -313,21 +326,20 @@ footer a:hover {
 }
 
 @media screen and (min-width: 768px) {
-  main{
+  main {
     grid-template-columns: auto 400px 1fr auto;
   }
 
-  section#ficha{
+  section#ficha {
     grid-column: 2 / 3;
     height: fit-content;
     position: sticky;
-    top: 85px;
+    top: 84px;
     margin-bottom: 20px;
   }
 
-  section#detalhes{
+  section#detalhes {
     grid-column: 3 / 4;
-
   }
 
   #tcc .video-container {
